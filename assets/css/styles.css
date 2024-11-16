@@ -1,3 +1,34 @@
-h1{
-    color: aqua;
+/* MAHER - COMECE HOJE MESMO A SOMAR PONTOS */
+.tit-somarPontos {
+    color: #003224;
+    margin: 120px 0px 0px 360px;
+    width: 25%;
+    font-size: 50px;
+}
+
+.realizarCadastro {
+    background-color: #9EF96E;
+    width: 50%;
+    padding: 32px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.realizarCadastro button{
+    color: #9EF96E;
+    background-color: #246035;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+.realizarCadastro p{
+    font-size: 1.3rem;
+    color: #246035;
+}
+
+.blocos {
+    display: flex;
 }
