@@ -187,25 +187,17 @@ body {
     border: none;
     font-weight: 400;
     word-wrap: break-word;
+    text-decoration: none;
 }
 .containerbtn {
     width: 169px;
     height: 40px;
     background-color: white;
-    padding-left: 24px;
+    padding-left: 26px;
     padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 10px;
-    border-radius: 30px ;
-}
-
-.entrada {
-    color: white;
-    font-size: 3.375rem;
-    font-weight: 600;
-    line-height: 54px;
-    word-wrap: break-word;
-
+    border-radius: 30px;
 }
 
 .containerclube {
@@ -225,20 +217,119 @@ body {
     font-weight: 500;
     line-height: 24px;
     word-wrap: break-word;
+}
+
+.entrada {
+    color: white;
+    font-size: 3.375rem;
+    font-weight: 600;
+    line-height: 54px;
+    word-wrap: break-word;
 
 }
 
 .bannerclubebeneficios {
-    background: url(../images/rockdamontanha.png);
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-position: center;
+    background-image: url(../images/montanha.png);
+    margin: 4px;
 }
 
-.clubedebeneficios {
+.clubebeneficios {
+    display: flex;
+}
+
+/* TRAICY - FOOTER */
+
+
+.containerfooter {
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.containerfooter1 {
+    width: 100%;
+    height: 412px;
+    background: #003224;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.containerverde {
+    width: 51.01px;
+    height: 50.88px;
     position: relative;
 }
+
+.tomadaverde {
+    width: 51.01px;
+    height: 50.88px;    
+    position: absolute;
+}
+
+.containericons1 {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containericons2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.containericons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.footer-text {
+    text-align: center;
+    color: #FAF8FF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    word-wrap: break-word;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .containerfooter1 {
+        height: 300px;
+    }
+
+    .containericons1 {
+        height: 50px;
+    }
+
+    .icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+}
+
+
