@@ -186,13 +186,14 @@ body {
 .containerclube  {
     width: 79.81rem; 
     height: 53.13rem; 
-    padding: 3.13rem; 
+    padding: 3.13rem 3.125rem; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     background:url(../images/montanha.png);
-    border-radius: 1.25rem;
+    border-radius: 3.125rem;
+    background-size: cover;
 }
 
 .containerclube1 {
@@ -241,9 +242,9 @@ body {
 }
 
 .cadastrofooter {
-    padding: 0.63rem 1.5rem; 
+    padding: 0.625rem 1.5rem; 
     background: white;
-    border-radius: 1.88rem; 
+    border-radius: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,6 +255,7 @@ body {
     color: black;
     font-size: 1.5rem; 
     font-weight: 500;
+    text-decoration: none;
 }
 
 /* Responsividade */
