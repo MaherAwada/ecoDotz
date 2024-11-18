@@ -6,11 +6,110 @@ body {
     place-items: center;
     height: 100vh;
     font-family: 'Mona Sans', sans-serif;
-  }
+}
+
+/* Daniel */
+.btn-primary {
+    background-color: #9EF96E;
+    color: #246035;
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.875rem;
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    border: 1px solid ##9EF96E;
+    color: ##9EF96E;
+    display: flex;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.875rem;
+}
+
+.navbar-ecodotz {
+    background-color: #246035 !important;
+    padding: 0.5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+}
+
+.section-como-acumular {
+    margin: 5rem;
+}
+
+.display-small {
+    font-family: "Mona Sans";
+    color: #003224;
+    font-size: 2.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 2.4375rem */
+    letter-spacing: -0.04875rem;
+}
+
+.cards-como-acumular {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+
+}
+
+.card-como-acumular {
+    display: flex;
+    max-width: 18rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-title-descricao {
+    display: flex;
+    padding: 1rem 1rem 1.5rem 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    align-self: stretch;
+}
+
+.title-medium {
+    font-family: "Mona Sans";
+    color: #246035;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 1.8rem */
+}
+
+.body {
+    font-family: "Mona Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.5rem */
+}
+
+.img-card-como-acumular {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 /*Hero-Emanuel*/
-  .containerhero {
-    width: 100% ;
+.containerhero {
+    width: 100%;
     display: flex;
     padding-left: 6.25rem;
     justify-content: space-between;
@@ -18,36 +117,39 @@ body {
     align-self: stretch;
     gap: 2.75rem;
     border-radius: 0rem 0rem 6.25rem 6.25rem;
-background: var(--primary-green, #9EF96E);
-  }
-  
-  .text-content h1 {
+    background: var(--primary-green, #9EF96E);
+}
+
+.text-content h1 {
     color: var(--darkest-green, #003224);
     font-size: 4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 100%; /* 4rem */
+    line-height: 100%;
+    /* 4rem */
     letter-spacing: -0.16rem;
-  }
-  
-  .text-content p {
+}
+
+.text-content p {
     color: var(--dark-green, #246035);
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%; /* 1rem */
+    line-height: 100%;
+    /* 1rem */
     text-transform: uppercase;
-  }
+}
 
-  .text-content h3 {
+.text-content h3 {
     color: var(--darkest-green, #003224);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 1.875rem */
-  }
-  
-  .text-content button {
+    line-height: 150%;
+    /* 1.875rem */
+}
+
+.text-content button {
     display: flex;
     padding: 14px 24px;
     justify-content: center;
@@ -55,54 +157,56 @@ background: var(--primary-green, #9EF96E);
     gap: 10px;
     border-radius: 30px;
     background: var(--Color, #FFF);
-  }
-    
-  .image-content img {
+}
+
+.image-content img {
     width: 35.6875rem;
     height: 39.625rem;
     border-radius: 0rem 0rem 6.25rem 0rem;
-  }
+}
 
-  @media (max-width: 768px) {
-      .image-content img {
+@media (max-width: 768px) {
+    .image-content img {
         width: 100%;
         max-width: 500px;
         height: 24.1875rem;
         align-self: stretch;
         border-radius: 0rem 0rem 4.375rem 4.375rem;
         background: url(../images/hero.jpeg) lightgray 50% / cover no-repeat;
-      }
+    }
 
-      .containerhero {
+    .containerhero {
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         align-self: stretch;
-  }
+    }
 
-  .text-content h1 {
-    color: var(--darkest-green, #003224);
-font-size: 4rem;
-font-style: normal;
-font-weight: 600;
-line-height: 100%; /* 4rem */
-letter-spacing: -0.16rem;
-  }
+    .text-content h1 {
+        color: var(--darkest-green, #003224);
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 4rem */
+        letter-spacing: -0.16rem;
+    }
 
-  .text-content h3 {
-    color: var(--darkest-green, #003224);
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 1.875rem */
-  }
+    .text-content h3 {
+        color: var(--darkest-green, #003224);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 1.875rem */
+    }
 
 }
-  
+
 /*Hero-Emanuel*/
-  
+
 /* MAHER - PONTOS POR PRODUTOS */
 .centralizada {
     background-color: rgba(158, 249, 110, 0.23);
@@ -115,24 +219,24 @@ line-height: 150%; /* 1.875rem */
     height: auto;
     flex-wrap: wrap;
 }
-  
+
 .conteudo {
     text-align: left;
     flex: 1;
 }
-  
+
 .conteudo h1 {
     color: #003224;
     font-size: 42px;
     margin-bottom: 20px;
 }
-  
+
 .conteudo p {
     color: #505050;
     font-size: 18px;
     margin-bottom: 30px;
 }
-  
+
 .conteudo .btn {
     font-size: 18px;
     padding: 14px 24px;
@@ -141,43 +245,43 @@ line-height: 150%; /* 1.875rem */
     cursor: pointer;
     transition: all 0.3s ease;
 }
-  
+
 .btn-comecar {
     background-color: #9EF96E;
     color: #246035;
     border: none;
 }
-  
+
 .btn-lista {
     background-color: transparent;
     border: 1px solid #246035;
     color: #246035;
 }
-  
+
 .imagem {
     flex: 1;
     display: flex;
     justify-content: center;
 }
-  
+
 .imagem img {
     width: 70%;
     height: auto;
     border-radius: 10px;
 }
-  
+
 .recompensas {
     margin-top: 76px;
     text-align: center;
     width: 100%;
 }
-  
+
 .recompensas h2 {
     color: #000000;
     font-size: 32px;
     margin-bottom: 40px;
 }
-  
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -186,7 +290,7 @@ line-height: 150%; /* 1.875rem */
     max-width: 1200px;
     margin: 0 auto;
 }
-  
+
 .card {
     background-color: #fff;
     border-radius: 15px;
@@ -205,7 +309,9 @@ line-height: 150%; /* 1.875rem */
     object-fit: cover;
 }
 
-.card-name, .card-info, .card-price {
+.card-name,
+.card-info,
+.card-price {
     margin-left: 10px;
 }
 
@@ -229,13 +335,13 @@ line-height: 150%; /* 1.875rem */
     font-size: 14px;
     font-weight: normal;
 }
-  
+
 .card-price {
     font-size: 18px;
     font-weight: bold;
     color: #003224;
     display: block;
-    margin-top: 5px; 
+    margin-top: 5px;
 }
 
 
@@ -255,7 +361,7 @@ line-height: 150%; /* 1.875rem */
     margin: 40px;
 }
 
-.realizarCadastro button{
+.realizarCadastro button {
     color: #9EF96E;
     background-color: #246035;
     border: none;
@@ -264,7 +370,7 @@ line-height: 150%; /* 1.875rem */
     text-decoration: none;
 }
 
-.realizarCadastro p{
+.realizarCadastro p {
     font-size: 1.3rem;
     color: #246035;
 }
@@ -277,22 +383,22 @@ line-height: 150%; /* 1.875rem */
 /* TRAICY - CLUBE DE BENEFICIOS */
 
 
-.containerclube  {
-    width: 79.81rem; 
-    height: 53.13rem; 
-    padding: 3.13rem 3.125rem; 
+.containerclube {
+    width: 79.81rem;
+    height: 53.13rem;
+    padding: 3.13rem 3.125rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background:url(../images/montanha.png);
+    background: url(../images/montanha.png);
     border-radius: 3.125rem;
     background-size: cover;
 }
 
 .containerclube1 {
     width: 5.31rem;
-    height: 5.31rem; 
+    height: 5.31rem;
     position: relative;
 }
 
@@ -307,13 +413,13 @@ line-height: 150%; /* 1.875rem */
     height: 20.19rem;
     display: flex;
     flex-direction: column;
-    gap: 2.56rem; 
+    gap: 2.56rem;
 }
 
-.clubebeneficios1{
-    padding: 0.50rem 0.25rem; 
+.clubebeneficios1 {
+    padding: 0.50rem 0.25rem;
     background: #9EF96E;
-    border-radius: 1.25rem;     
+    border-radius: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,32 +428,32 @@ line-height: 150%; /* 1.875rem */
 
 .clube-beneficios {
     color: #246035;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .entrada-vip {
-    width: 42.81rem; 
-    font-size: 2.94rem; 
+    width: 42.81rem;
+    font-size: 2.94rem;
     font-weight: 600;
     color: #FAF8FF;
     line-height: 1.2;
 }
 
 .cadastrofooter {
-    padding: 0.625rem 1.5rem; 
+    padding: 0.625rem 1.5rem;
     background: white;
     border-radius: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .realizar-cadastro {
     color: black;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -355,24 +461,24 @@ line-height: 150%; /* 1.875rem */
 /* Responsividade */
 @media (max-width: 1277px) {
     .containerclube {
-        width: 43.75rem; 
+        width: 43.75rem;
         padding: 2rem;
     }
 
     .entrada-vip {
         width: 100%;
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 700px) {
     .containerclube {
-        width: 24.38rem; 
+        width: 24.38rem;
         padding: 1rem;
     }
 
     .entrada-vip {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 }
 
@@ -387,7 +493,7 @@ line-height: 150%; /* 1.875rem */
     justify-content: flex-start;
     align-items: flex-start;
     gap: 0.625rem;
-    padding-top: 4.5rem ;
+    padding-top: 4.5rem;
     align-self: stretch;
 }
 
@@ -413,7 +519,7 @@ line-height: 150%; /* 1.875rem */
 
 .tomadaverde {
     width: 51.01px;
-    height: 50.88px;    
+    height: 50.88px;
     position: absolute;
 }
 
@@ -470,9 +576,7 @@ line-height: 150%; /* 1.875rem */
         height: 14px;
     }
 
-    .footer-text {      
+    .footer-text {
         font-size: 10px;
     }
 }
-
-
