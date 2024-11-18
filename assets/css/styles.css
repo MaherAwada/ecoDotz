@@ -8,6 +8,100 @@ body {
     font-family: 'Mona Sans', sans-serif;
   }
 
+/*Hero-Emanuel*/
+  .containerhero {
+    width: 100% ;
+    display: flex;
+    padding-left: 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    gap: 2.75rem;
+    border-radius: 0rem 0rem 6.25rem 6.25rem;
+background: var(--primary-green, #9EF96E);
+  }
+  
+  .text-content h1 {
+    color: var(--darkest-green, #003224);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 4rem */
+    letter-spacing: -0.16rem;
+  }
+  
+  .text-content p {
+    color: var(--dark-green, #246035);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 1rem */
+    text-transform: uppercase;
+  }
+
+  .text-content h3 {
+    color: var(--darkest-green, #003224);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.875rem */
+  }
+  
+  .text-content button {
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--Color, #FFF);
+  }
+    
+  .image-content img {
+    width: 35.6875rem;
+    height: 39.625rem;
+    border-radius: 0rem 0rem 6.25rem 0rem;
+  }
+
+  @media (max-width: 768px) {
+      .image-content img {
+        width: 100%;
+        max-width: 500px;
+        height: 24.1875rem;
+        align-self: stretch;
+        border-radius: 0rem 0rem 4.375rem 4.375rem;
+        background: url(../images/hero.jpeg) lightgray 50% / cover no-repeat;
+      }
+
+      .containerhero {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+  }
+
+  .text-content h1 {
+    color: var(--darkest-green, #003224);
+font-size: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 4rem */
+letter-spacing: -0.16rem;
+  }
+
+  .text-content h3 {
+    color: var(--darkest-green, #003224);
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.875rem */
+  }
+
+}
+  
+/*Hero-Emanuel*/
   
 /* MAHER - PONTOS POR PRODUTOS */
 .centralizada {
